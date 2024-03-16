@@ -1,0 +1,1089 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.21f1 (bf09ca542b87) revision 12519882'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 7861 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/MEGA/Desktop/aa/car-racing/TopDownCar2d
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50102
+Successfully changed project path to: C:/Users/MEGA/Desktop/aa/car-racing/TopDownCar2d
+C:/Users/MEGA/Desktop/aa/car-racing/TopDownCar2d
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [260] Host "[IP] 192.168.10.93 [Port] 0 [Flags] 2 [Guid] 1839336530 [EditorId] 1839336530 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IO4P67M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [260] Host "[IP] 192.168.10.93 [Port] 0 [Flags] 2 [Guid] 1839336530 [EditorId] 1839336530 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IO4P67M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
+Refreshing native plugins compatible for Editor in 159.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.21f1 (bf09ca542b87)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/MEGA/Desktop/aa/car-racing/TopDownCar2d/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x3e92)
+    Vendor:   Intel
+    VRAM:     3930 MB
+    Driver:   31.0.101.2111
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.020591 seconds.
+- Loaded All Assemblies, in  0.706 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.438 seconds
+Domain Reload Profiling: 1141ms
+	BeginReloadAssembly (196ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (151ms)
+	LoadAllAssembliesAndSetupDomain (251ms)
+		LoadAssemblies (193ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (248ms)
+			TypeCache.Refresh (244ms)
+				TypeCache.ScanAssembly (217ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (439ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (292ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (200ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.695 seconds
+Refreshing native plugins compatible for Editor in 4.57 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.628 seconds
+Domain Reload Profiling: 1319ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (440ms)
+		LoadAssemblies (359ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (176ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (131ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (629ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (465ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (326ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 4.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4078 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (61.0 KB). Loaded Objects now: 4540.
+Memory consumption went from 144.5 MB to 144.4 MB.
+Total: 3.764200 ms (FindLiveObjects: 0.321200 ms CreateObjectMapping: 0.339700 ms MarkObjects: 2.980200 ms  DeleteObjects: 0.122200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1015.535988 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(09d1081d0a5b14c45a7f7e8e34398138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(09d1081d0a5b14c45a7f7e8e34398138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5522e31cccb6d96da03376311b618a65') in 0.001878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.617 seconds
+Refreshing native plugins compatible for Editor in 8.06 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.074 seconds
+Domain Reload Profiling: 2687ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (353ms)
+		LoadAssemblies (384ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (63ms)
+			TypeCache.Refresh (25ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2075ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (579ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (402ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 4.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4067 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (35.3 KB). Loaded Objects now: 4546.
+Memory consumption went from 143.4 MB to 143.4 MB.
+Total: 3.962600 ms (FindLiveObjects: 0.409700 ms CreateObjectMapping: 0.307000 ms MarkObjects: 3.158600 ms  DeleteObjects: 0.085800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 19.553854 seconds.
+  path: Assets/Scripts/Car/WheelParticleHandle.cs
+  artifactKey: Guid(e3818597d4d1a514aa8991156d2c9b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car/WheelParticleHandle.cs using Guid(e3818597d4d1a514aa8991156d2c9b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd40abe5811d67b8bcec6ac107cd7ff') in 0.001908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.348 seconds
+Refreshing native plugins compatible for Editor in 7.75 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.475 seconds
+Domain Reload Profiling: 3814ms
+	BeginReloadAssembly (264ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (914ms)
+		LoadAssemblies (959ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (99ms)
+			TypeCache.Refresh (45ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (38ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2476ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (620ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (420ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 6.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4067 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (36.3 KB). Loaded Objects now: 4550.
+Memory consumption went from 145.4 MB to 145.3 MB.
+Total: 3.545600 ms (FindLiveObjects: 0.378800 ms CreateObjectMapping: 0.281800 ms MarkObjects: 2.682000 ms  DeleteObjects: 0.201700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 202.365507 seconds.
+  path: Assets/Material/DriftM.mat
+  artifactKey: Guid(351ea9608354874449e3c3658b9933e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Material/DriftM.mat using Guid(351ea9608354874449e3c3658b9933e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9e8a8fab629396dc4550e1e863929c3e') in 0.217875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/2D_urban_cars/src/car_1.svg
+  artifactKey: Guid(43c48399c127347a79f6dfca863422f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/src/car_1.svg using Guid(43c48399c127347a79f6dfca863422f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8d56ce50c0ed56c38cfe383f64d7a409') in 0.019407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/2D_urban_cars/sprites/background.png
+  artifactKey: Guid(a92a3b3722bf14ee7b0ef095e35f739e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/background.png using Guid(a92a3b3722bf14ee7b0ef095e35f739e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '35485ca7c38d94f361e35a31eee776ae') in 0.101675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/2D_urban_cars/src/car_5.svg
+  artifactKey: Guid(c779a974679484c47ae52763a9b99cdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/src/car_5.svg using Guid(c779a974679484c47ae52763a9b99cdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0128d398b25d5d67847b3505d5c1c529') in 0.015655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D_urban_cars/src/steeringwheel_02.svg
+  artifactKey: Guid(d4d3bdb3dc3e64094b26e1bb6f68be38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/src/steeringwheel_02.svg using Guid(d4d3bdb3dc3e64094b26e1bb6f68be38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '120c43327d663e1761b08d325e6a6449') in 0.016954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D_urban_cars/test_scenes/test_scene_03Settings.lighting
+  artifactKey: Guid(565ba383a333d174ea879d9330bb065c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/test_scenes/test_scene_03Settings.lighting using Guid(565ba383a333d174ea879d9330bb065c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'a13dad74ab67c5812c76e39a6cc87eb5') in 0.038091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D_urban_cars/animations/engine_start_03.anim
+  artifactKey: Guid(77142c949501d4cb086e583ea8a4a78b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/animations/engine_start_03.anim using Guid(77142c949501d4cb086e583ea8a4a78b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8b9e62c9fa6ac87a05b89a0bbc793ad9') in 0.026948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2D_urban_cars/sound/car_4/generic_engine_start_04.wav
+  artifactKey: Guid(4e8e149e999b94d478cb4d9d0296f4da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sound/car_4/generic_engine_start_04.wav using Guid(4e8e149e999b94d478cb4d9d0296f4da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f3b4d447fbea7686bba6f8b82c281c79') in 0.080788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/2D_urban_cars/sprites/car_controls/steeringwheel_07.png
+  artifactKey: Guid(e3f557e7630fd424995b36cc86d0b3d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/car_controls/steeringwheel_07.png using Guid(e3f557e7630fd424995b36cc86d0b3d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1ed1d00369af01c143404e88afe99a12') in 0.055459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D_urban_cars/animations/door_front_right_opening.anim
+  artifactKey: Guid(80c246fe5bf1f44dfa7098af50ae2885) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/animations/door_front_right_opening.anim using Guid(80c246fe5bf1f44dfa7098af50ae2885) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '34771c320eff507f750ab9bbb98fcb8d') in 0.029873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D_urban_cars/prefabs/pickup_white.prefab
+  artifactKey: Guid(d143f2894cc274b7c916d7463b18b39e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/prefabs/pickup_white.prefab using Guid(d143f2894cc274b7c916d7463b18b39e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4e7ace18008673bc17ad9d1e227eb83a') in 0.063308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D_urban_cars/prefabs/4x4_green.prefab
+  artifactKey: Guid(384aea985b03744478ae103e04ec6715) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/prefabs/4x4_green.prefab using Guid(384aea985b03744478ae103e04ec6715) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6060e650bd3e53c8b0ef990ac1a4a1dd') in 0.028561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D_urban_cars/test_scenes/test_scene_04.unity
+  artifactKey: Guid(27ce087f591684e8badadf77ca4bee5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/test_scenes/test_scene_04.unity using Guid(27ce087f591684e8badadf77ca4bee5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e7800d0e46a3345d9da0b4dec231e811') in 0.018383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scripts/Car/WheelParticleHandle.cs
+  artifactKey: Guid(e3818597d4d1a514aa8991156d2c9b5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Car/WheelParticleHandle.cs using Guid(e3818597d4d1a514aa8991156d2c9b5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6e9eec1e521466b07b6c9ecb9b28935c') in 0.026368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/2D_urban_cars/sprites/car_controls/gstick_drive.png
+  artifactKey: Guid(130e670e70cba4d2bb9fa0673a593f1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/car_controls/gstick_drive.png using Guid(130e670e70cba4d2bb9fa0673a593f1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '41729bcc97ee13cb8f95e24de2e6421d') in 0.044628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/2D_urban_cars/sprites/car_controls/steeringwheel_01.png
+  artifactKey: Guid(8ae554aae23d24332a6e4787d388c510) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/car_controls/steeringwheel_01.png using Guid(8ae554aae23d24332a6e4787d388c510) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ac299905b9de9d5b6e3a02245e42d5d7') in 0.060072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D_urban_cars/sprites/4x4_green/4x4_door_green.png
+  artifactKey: Guid(5056464f0402d45e0a14931e6c9a7e8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/4x4_green/4x4_door_green.png using Guid(5056464f0402d45e0a14931e6c9a7e8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd878d2810303c99862e9b7dd50c3e69c') in 0.034919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D_urban_cars/sprites/car_controls/pedal_brake.png
+  artifactKey: Guid(e242bd066b4ea4615845448364089995) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/car_controls/pedal_brake.png using Guid(e242bd066b4ea4615845448364089995) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '19975fb165417c0154cdadb3ad5c1dd8') in 0.057609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/2D_urban_cars/prefabs/touringcar_dark.prefab
+  artifactKey: Guid(553f3d7d25fcb410e90399baccc8e68a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/prefabs/touringcar_dark.prefab using Guid(553f3d7d25fcb410e90399baccc8e68a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '418f9ee1e6145066b4b3201bc7b5f561') in 0.078377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/2D_urban_cars/sprites/minicar_blue/minicar_door_blue.png
+  artifactKey: Guid(6b5d95b76ce4140ecaef6f446b8a0cef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/minicar_blue/minicar_door_blue.png using Guid(6b5d95b76ce4140ecaef6f446b8a0cef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b7f83d8582c859d589dfdbb3a79dea56') in 0.053303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2D_urban_cars/sprites/minicar_yellow/minicar_shadow.png
+  artifactKey: Guid(620ed6de9bbfa4a24af181df46dd5d1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/minicar_yellow/minicar_shadow.png using Guid(620ed6de9bbfa4a24af181df46dd5d1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bc0df64066ecd887347685d12321a8af') in 0.049266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/2D_urban_cars/sprites/car_controls/steeringwheel_10.png
+  artifactKey: Guid(1a80e4084608b4d1094ff7d02b39894a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/car_controls/steeringwheel_10.png using Guid(1a80e4084608b4d1094ff7d02b39894a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3e5ee56a952dd1d9f9a25dd2d67ad2ba') in 0.051653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/2D_urban_cars/sprites/car_controls/steeringwheel_09.png
+  artifactKey: Guid(d2197f60a1c3b4c339b3e8f14c8d0b7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/car_controls/steeringwheel_09.png using Guid(d2197f60a1c3b4c339b3e8f14c8d0b7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c8aacc4fab508c000efd4084db5d3b4e') in 0.076979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/2D_urban_cars/src/steeringwheel_03.svg
+  artifactKey: Guid(2006b7dc276bb43ec8a9aed7178dfe12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/src/steeringwheel_03.svg using Guid(2006b7dc276bb43ec8a9aed7178dfe12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'efa45ee06a17ad8be4d91f5dc270af31') in 0.034569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000667 seconds.
+  path: Assets/2D_urban_cars/test_scenes/test_scene_02.unity
+  artifactKey: Guid(935be17c32da8480390cb2abd49f2f6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/test_scenes/test_scene_02.unity using Guid(935be17c32da8480390cb2abd49f2f6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'df75170c4754c6c6b00ebb00004dcc0d') in 0.042872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/2D_urban_cars/src/car_3.svg
+  artifactKey: Guid(d30e24cc14a404930a225a5fe0e3481f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/src/car_3.svg using Guid(d30e24cc14a404930a225a5fe0e3481f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '85badbdf388885240241b50c78ec9001') in 0.026040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D_urban_cars/sprites/4x4_white/4x4_door_white_r.png
+  artifactKey: Guid(52917b299186e4d579af326074d968c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/4x4_white/4x4_door_white_r.png using Guid(52917b299186e4d579af326074d968c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f7e075e9124ea26215c1f6cad843569c') in 0.048640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2D_urban_cars/prefabs/cabrio_red.prefab
+  artifactKey: Guid(6b8fa8afafecb41918297b8d694e008a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/prefabs/cabrio_red.prefab using Guid(6b8fa8afafecb41918297b8d694e008a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1e4ec8104f98c439d85960e32d9678c0') in 0.046793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/2D_urban_cars/animations/door_l.controller
+  artifactKey: Guid(9df3a4debb6844962a57e40563961c96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/animations/door_l.controller using Guid(9df3a4debb6844962a57e40563961c96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5604e09b2a9d34d551ec2a54b3fad6f5') in 0.030110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2D_urban_cars/sprites/pickup_white/pickup_white_door_front.png
+  artifactKey: Guid(912cadb1f792441a1ba8c4a427423fef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/pickup_white/pickup_white_door_front.png using Guid(912cadb1f792441a1ba8c4a427423fef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eb4866eadb69ba8ba546cb5f7cae5c75') in 0.037844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2D_urban_cars/sprites/pickup_white/pickup_white_door_front_r.png
+  artifactKey: Guid(86b22961d466d4338975ba3dd844c542) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/pickup_white/pickup_white_door_front_r.png using Guid(86b22961d466d4338975ba3dd844c542) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '48bc5e425371f5d2e780d70f2d371762') in 0.052636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D_urban_cars/sprites/pickup_white/pickup_white_door_rear.png
+  artifactKey: Guid(cac743a4b1d3549bdadb52db2569306c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/pickup_white/pickup_white_door_rear.png using Guid(cac743a4b1d3549bdadb52db2569306c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bd10a4caa8440ac0720b23ddb951fdbf') in 0.054883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/Car/CarInputHandle.cs
+  artifactKey: Guid(ce67cfc9018938f4eb7afcff978c1aa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Car/CarInputHandle.cs using Guid(ce67cfc9018938f4eb7afcff978c1aa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6122b081aeea1f30ad0adf6ee3ab7f10') in 0.043629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/2D_urban_cars/sound/gearstick/generic_gearstick.wav
+  artifactKey: Guid(9cc0bcb178f4544cf802521a0ff843da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sound/gearstick/generic_gearstick.wav using Guid(9cc0bcb178f4544cf802521a0ff843da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3c3a20d11653bf840ead3d454109a1d9') in 0.063782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/2D_urban_cars/sprites/pickup_red/pickup_red.png
+  artifactKey: Guid(63f1862ec76424fae9673ab0ed8f9fac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/pickup_red/pickup_red.png using Guid(63f1862ec76424fae9673ab0ed8f9fac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b34418d83d485a4ecd531f7cb19da87e') in 0.050731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2D_urban_cars/animations/door_front_right_open.anim
+  artifactKey: Guid(f3198c48ea5ae43b7919164548d5da1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/animations/door_front_right_open.anim using Guid(f3198c48ea5ae43b7919164548d5da1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b2c239bbb4dd29c474d7d9c307400521') in 0.039600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D_urban_cars/animations/door_front_left_open.anim
+  artifactKey: Guid(d8c131b4cf6ea4feabf7607a79fd7b13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/animations/door_front_left_open.anim using Guid(d8c131b4cf6ea4feabf7607a79fd7b13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9a48d936ed983a4b5e6e8f4ea75adab6') in 0.022981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Scripts/Car/Car.cs
+  artifactKey: Guid(291b328fe9cf0bd4fb91688cfeecafd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Car/Car.cs using Guid(291b328fe9cf0bd4fb91688cfeecafd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'feb3b66cbedaadbd2570595105312fd6') in 0.022491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D_urban_cars/src/steeringwheel.svg
+  artifactKey: Guid(8c28b59271eab40f99ce25a1ad3c07f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/src/steeringwheel.svg using Guid(8c28b59271eab40f99ce25a1ad3c07f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '11612415f046fe19467b78c96a5a69fd') in 0.020997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/2D_urban_cars/sprites/car_controls/engine_start.png
+  artifactKey: Guid(1bd2f32b04cc548e8b4dc2547b17c67a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/car_controls/engine_start.png using Guid(1bd2f32b04cc548e8b4dc2547b17c67a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '95554c4df84bed7fd50a8009158bccd8') in 0.031797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2D_urban_cars/prefabs/touringcar_gray.prefab
+  artifactKey: Guid(2a6c9666ff3674c0fa0e0e5f828fb261) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/prefabs/touringcar_gray.prefab using Guid(2a6c9666ff3674c0fa0e0e5f828fb261) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4aaa104fda4568e8ec57502f55b4ba84') in 0.039033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/2D_urban_cars/sprites/touringcar_white/touringcar_white_door_front.png
+  artifactKey: Guid(7964ac8ef4ef34755ab9860488319549) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/touringcar_white/touringcar_white_door_front.png using Guid(7964ac8ef4ef34755ab9860488319549) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2ffcc9414c6e11713fbcaac444ab799b') in 0.035122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D_urban_cars/sprites/touringcar_white/touringcar_shadow.png
+  artifactKey: Guid(89b125903a6f0495a8b57479ac72dd73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/touringcar_white/touringcar_shadow.png using Guid(89b125903a6f0495a8b57479ac72dd73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5c25df65e2440f2a46f9e9ddba39e68c') in 0.038343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D_urban_cars/sprites/touringcar_gray/touringcar_gray_door_rear_l.png
+  artifactKey: Guid(bb199e324c6ce42ddbf9910be4afd0d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/touringcar_gray/touringcar_gray_door_rear_l.png using Guid(bb199e324c6ce42ddbf9910be4afd0d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b94f8e35d0fdafb88e36b82bdba7f2bf') in 0.045172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D_urban_cars/sprites/pickup_red/pickup_red_door_rear.png
+  artifactKey: Guid(e421e487ee16a4a01abe853a24c3ae1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/pickup_red/pickup_red_door_rear.png using Guid(e421e487ee16a4a01abe853a24c3ae1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cf34d4e3b76ffda219775282371bc8e3') in 0.035194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/2D_urban_cars/test_scenes/test_scene_01Settings.lighting
+  artifactKey: Guid(299d7ce81e0991f45b2606ce57ade462) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/test_scenes/test_scene_01Settings.lighting using Guid(299d7ce81e0991f45b2606ce57ade462) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '05efc605a96be17ac9ff3ca2789165f9') in 0.029053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/2D_urban_cars/sprites/cabrio_red/cabrio_red.png
+  artifactKey: Guid(6d2ac7cc98b514192a5151f96f745c60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/cabrio_red/cabrio_red.png using Guid(6d2ac7cc98b514192a5151f96f745c60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '128c97f059dbba8d6b428001d842c5d0') in 0.030545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/2D_urban_cars/sprites/car_controls/pedal_barke_02.png
+  artifactKey: Guid(d47080a9b859e49adaf22f1f11cb5e1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/car_controls/pedal_barke_02.png using Guid(d47080a9b859e49adaf22f1f11cb5e1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '02a5105d0f9f1c512df72254ce02fd9b') in 0.040786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/2D_urban_cars/sprites/car_controls/steeringwheel_12.png
+  artifactKey: Guid(d52f946cab5544375a8c3daaf6322f11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/car_controls/steeringwheel_12.png using Guid(d52f946cab5544375a8c3daaf6322f11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6ade898c84443dc29acbbf5d48d486ea') in 0.043609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2D_urban_cars/scripts/SceneLoaderBehaviour.cs
+  artifactKey: Guid(35532d51b01134a328cb48bb085f7963) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/scripts/SceneLoaderBehaviour.cs using Guid(35532d51b01134a328cb48bb085f7963) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9f21ee11c0c1b04d1f9110ae73ec022a') in 0.023422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D_urban_cars/prefabs/minicar_yellow.prefab
+  artifactKey: Guid(d2bae12992f47464f8643489be873e58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/prefabs/minicar_yellow.prefab using Guid(d2bae12992f47464f8643489be873e58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f4615e14649f47aba0feb6e048d91895') in 0.030652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2D_urban_cars/scripts/SplashBehaviour.cs
+  artifactKey: Guid(ebd106734319843a291de5ef28e83acd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/scripts/SplashBehaviour.cs using Guid(ebd106734319843a291de5ef28e83acd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fb38ef541fd826c52a626243243e1c38') in 0.025618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/2D_urban_cars/sprites/corp/eyes.png
+  artifactKey: Guid(43748afb8065a10478e37b4df7cfa984) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/corp/eyes.png using Guid(43748afb8065a10478e37b4df7cfa984) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c38f7df13419e71770469d1215d245a') in 0.044895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D_urban_cars/prefabs/4x4_blue.prefab
+  artifactKey: Guid(332e0e9fe16bf4567ae4083692f4fcbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/prefabs/4x4_blue.prefab using Guid(332e0e9fe16bf4567ae4083692f4fcbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '752c47d95604fccf52a95cf160ebbb09') in 0.033968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/2D_urban_cars/sprites/pickup_white/pickup_white_door_rear_r.png
+  artifactKey: Guid(1526ed13e38cb47478730cd81c5c3d01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/pickup_white/pickup_white_door_rear_r.png using Guid(1526ed13e38cb47478730cd81c5c3d01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '95f6594cf7cf13f20ab1faa6c4f19470') in 0.039232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/2D_urban_cars/test_scenes/test_scene_xxSettings.lighting
+  artifactKey: Guid(ede5ee4587d1ea5429addc9f02eab33d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/test_scenes/test_scene_xxSettings.lighting using Guid(ede5ee4587d1ea5429addc9f02eab33d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'b917bbaff05789b225dfcffb51178717') in 0.028382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2D_urban_cars/sprites/minicar_black/minicar_door_black.png
+  artifactKey: Guid(84e8f770a71334795b2afcbd9e677219) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/minicar_black/minicar_door_black.png using Guid(84e8f770a71334795b2afcbd9e677219) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fa9764f1659b953a4c65a1f3cd77eba2') in 0.038653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/2D_urban_cars/sprites/pickup_gray/pickup_gray.png
+  artifactKey: Guid(fcbd74f1792b846bdab5b47289b8af45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/pickup_gray/pickup_gray.png using Guid(fcbd74f1792b846bdab5b47289b8af45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ec8bb4166f7bda12f431f353f122d135') in 0.038252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D_urban_cars/prefabs/pickup_gray.prefab
+  artifactKey: Guid(e6cac1eac52fb46a8a91cb98b39bf6ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/prefabs/pickup_gray.prefab using Guid(e6cac1eac52fb46a8a91cb98b39bf6ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2e69f6b7e477152d1eadb03651a7df96') in 0.029728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/2D_urban_cars/sprites/4x4_green/4x4_door_green_r.png
+  artifactKey: Guid(50e97f29f8dbf49f9802b24582905c9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/4x4_green/4x4_door_green_r.png using Guid(50e97f29f8dbf49f9802b24582905c9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '76b66fecf2391c29d66e25ad74a1c57c') in 0.035553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/2D_urban_cars/sprites/pickup_red/pickup_shadow.png
+  artifactKey: Guid(f6c802fd2310149589ee1004e4e44eba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/pickup_red/pickup_shadow.png using Guid(f6c802fd2310149589ee1004e4e44eba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c5931f359e604ff9dd2d5d3ba7423223') in 0.041649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D_urban_cars/sprites/touringcar_white/touringcar_white_door_rear.png
+  artifactKey: Guid(c10425dc4e0ff456da5c88e40a370aee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/touringcar_white/touringcar_white_door_rear.png using Guid(c10425dc4e0ff456da5c88e40a370aee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9635406c06ca0d666793e4fa0b9efb6e') in 0.038341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/2D_urban_cars/sprites/car_controls/pedal_accel_03.png
+  artifactKey: Guid(d79bbe62330404d54b48385fd520d65f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/car_controls/pedal_accel_03.png using Guid(d79bbe62330404d54b48385fd520d65f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4f7e6e87e4a830c0c397cfd7a22aacaf') in 0.037788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/2D_urban_cars/sprites/4x4_white/4x4_white.png
+  artifactKey: Guid(1ed9ba05136f04601a60ca02cfee2fd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/4x4_white/4x4_white.png using Guid(1ed9ba05136f04601a60ca02cfee2fd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cc75712989d3accf1e9cd41a6b43c616') in 0.042537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D_urban_cars/sprites/minicar_yellow/minicar_door_yellow.png
+  artifactKey: Guid(50cfe051edf904eab944c4c06634c241) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/minicar_yellow/minicar_door_yellow.png using Guid(50cfe051edf904eab944c4c06634c241) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '991d7e9cbedc102c6c48071a84a1fd7c') in 0.044187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/2D_urban_cars/sprites/4x4_white/4x4_door_white.png
+  artifactKey: Guid(08b3eb59bf82c47ecb84393980805375) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/4x4_white/4x4_door_white.png using Guid(08b3eb59bf82c47ecb84393980805375) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'de3fcabb23d75c9d2a6acbd0abc24e18') in 0.058489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D_urban_cars/test_scenes/test_scene_03.unity
+  artifactKey: Guid(99826100a35164b0692289023af10385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/test_scenes/test_scene_03.unity using Guid(99826100a35164b0692289023af10385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '382d1230a46cb39b4a8d7b1e4d3b51ad') in 0.022422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/2D_urban_cars/sound/doors/door_opening.wav
+  artifactKey: Guid(095c60cb2f0464295ad90807600a9f9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sound/doors/door_opening.wav using Guid(095c60cb2f0464295ad90807600a9f9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '87b76ca8d307dc9b7ef9787ee73bf450') in 0.037319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D_urban_cars/sprites/touringcar_dark/touringcar_dark_door_rear.png
+  artifactKey: Guid(6a90eae80131d47aaa43022740ff0943) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/touringcar_dark/touringcar_dark_door_rear.png using Guid(6a90eae80131d47aaa43022740ff0943) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cf1e6c77ef39a55ab6fc79408c432e72') in 0.038935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D_urban_cars/sprites/car_controls/steeringwheel_06.png
+  artifactKey: Guid(5496cb54d1136414d8a4fb7f396c644b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/car_controls/steeringwheel_06.png using Guid(5496cb54d1136414d8a4fb7f396c644b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '26546fbadfc083569638c5ff7317d64c') in 0.049903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D_urban_cars/test_scenes/test_scene_04Settings.lighting
+  artifactKey: Guid(5f7e4816a663aac45888e70d802f999c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/test_scenes/test_scene_04Settings.lighting using Guid(5f7e4816a663aac45888e70d802f999c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'c32fd77ba7c64934df2b90993f32faa8') in 0.027689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D_urban_cars/sprites/minicar_black/minicar_black.png
+  artifactKey: Guid(8e9bf285a1c1d4367a66b78884ae689d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/minicar_black/minicar_black.png using Guid(8e9bf285a1c1d4367a66b78884ae689d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'adb944ac8ce0ce967987c994ade73a1e') in 0.034811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D_urban_cars/animations/engine start.controller
+  artifactKey: Guid(a35b42fbd12ae490c92b2a4743ea3892) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/animations/engine start.controller using Guid(a35b42fbd12ae490c92b2a4743ea3892) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8742293b26dffdd21586f70b06bee49f') in 0.020165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D_urban_cars/sprites/4x4_blue/4x4_door_blue_r.png
+  artifactKey: Guid(0b15d4b72d6b54ea0a89a6f4a2e68b26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/4x4_blue/4x4_door_blue_r.png using Guid(0b15d4b72d6b54ea0a89a6f4a2e68b26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f93c3d30b627989214490d13dff6db23') in 0.040763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/2D_urban_cars/sprites/car_controls/steeringwheel_15.png
+  artifactKey: Guid(30aae9ed3279a4cce9260b23316c0e54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/car_controls/steeringwheel_15.png using Guid(30aae9ed3279a4cce9260b23316c0e54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '396f8b31b09f923f4ead74053a1c7f65') in 0.041700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D_urban_cars/sprites/car_controls/steeringwheel_08.png
+  artifactKey: Guid(33c28c15a9642416cbabb1ac8c3b59b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/car_controls/steeringwheel_08.png using Guid(33c28c15a9642416cbabb1ac8c3b59b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a9ecf273d77a94abe148733de242b562') in 0.042291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/2D_urban_cars/sprites/touringcar_white/touringcar_white_door_front_r.png
+  artifactKey: Guid(eba8927be4c9d4b38a0a5aa3e8be0a1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/touringcar_white/touringcar_white_door_front_r.png using Guid(eba8927be4c9d4b38a0a5aa3e8be0a1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e27ccc210670cb84e013b3e23418de4d') in 0.045926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/2D_urban_cars/sprites/touringcar_white/touringcar_white.png
+  artifactKey: Guid(167a9ac2c564a40e8a5a49aff3e425fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/touringcar_white/touringcar_white.png using Guid(167a9ac2c564a40e8a5a49aff3e425fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5021f2e59e04516927a8a4eb49ce39a6') in 0.031813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D_urban_cars/sprites/cabrio_yellow/cabrio_door_yellow_r.png
+  artifactKey: Guid(42861358bff2141eaa81f689ea0cccd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/cabrio_yellow/cabrio_door_yellow_r.png using Guid(42861358bff2141eaa81f689ea0cccd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd07533624207c83b3921ca96c8433ae4') in 0.035007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2D_urban_cars/sprites/cabrio_red/cabrio_door_red.png
+  artifactKey: Guid(1d7371e5748e54fc3b4d5674e53c8c74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/cabrio_red/cabrio_door_red.png using Guid(1d7371e5748e54fc3b4d5674e53c8c74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '11844c3366d83b1adf291e170ba40d71') in 0.040052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002379 seconds.
+  path: Assets/2D_urban_cars/sprites/touringcar_dark/touringcar_dark_door_rear_r.png
+  artifactKey: Guid(2fde8d9c9d4f5498a941a9ecdf88a6c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/touringcar_dark/touringcar_dark_door_rear_r.png using Guid(2fde8d9c9d4f5498a941a9ecdf88a6c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ef6d3820bb7e5592bd98ba09429f872c') in 0.035205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2D_urban_cars/sound/car_4/generic_engine_loop_04.wav
+  artifactKey: Guid(c68649e84ae494c0da8b4912cf4e1141) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sound/car_4/generic_engine_loop_04.wav using Guid(c68649e84ae494c0da8b4912cf4e1141) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '85f7f46a1c4df51551c04cf88fb72d8c') in 0.053022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D_urban_cars/prefabs/cabrio_blue.prefab
+  artifactKey: Guid(b236f43bbde914f6ebb0efe064ef7b64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/prefabs/cabrio_blue.prefab using Guid(b236f43bbde914f6ebb0efe064ef7b64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7268a1e51b27ac0792e544be935077b1') in 0.030168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/2D_urban_cars/src/gearstick.svg
+  artifactKey: Guid(ea899c727137b4f5380da2e54f51b11a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/src/gearstick.svg using Guid(ea899c727137b4f5380da2e54f51b11a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cb46d61339fa8d8c41bd51f295cf1ece') in 0.016106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/2D_urban_cars/sprites/cabrio_blue/cabrio_shadow.png
+  artifactKey: Guid(2d608387d9ce8457f8766b578ec3078a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/cabrio_blue/cabrio_shadow.png using Guid(2d608387d9ce8457f8766b578ec3078a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3938777291a3fe5191b102709141120e') in 0.030372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D_urban_cars/sprites/car_controls/steeringwheel_14.png
+  artifactKey: Guid(261f18fdd5bf84f05b82caa9c3c1629e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_urban_cars/sprites/car_controls/steeringwheel_14.png using Guid(261f18fdd5bf84f05b82caa9c3c1629e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5c0573dfdba083d81d5171d686816766') in 0.037425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.729 seconds
+Refreshing native plugins compatible for Editor in 5.15 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.077 seconds
+Domain Reload Profiling: 2802ms
+	BeginReloadAssembly (231ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (412ms)
+		LoadAssemblies (502ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (36ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (2078ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (821ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (159ms)
+			ProcessInitializeOnLoadAttributes (590ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 4.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4067 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (35.3 KB). Loaded Objects now: 4556.
+Memory consumption went from 150.8 MB to 150.8 MB.
+Total: 3.330100 ms (FindLiveObjects: 0.369000 ms CreateObjectMapping: 0.308600 ms MarkObjects: 2.593400 ms  DeleteObjects: 0.058200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
